@@ -289,3 +289,5 @@ Local **fails** to replace frontier on the hardest 20% of tasks.
 ## License
 
 Text licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Figures are sourced as of mid-June 2026 and will age; verify current data before purchase decisions. This is an independent technical guide, not financial or purchasing advice.
+
+Par [Ismaël Joffroy Chandoutis](https://ismaeljoffroychandoutis.com).
