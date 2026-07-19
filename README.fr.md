@@ -78,7 +78,7 @@ GLM-5.2 est en tête de l'index Artificial Analysis des modèles open au moment 
 
 ## 5. Clustering Thunderbolt 5 : capacité, pas vitesse
 
-Mythe à corriger : "si je branche deux machines, je passe de 1000 GB/s à combien ?". Mauvaise question. **Chaque machine garde sa bande passante interne.** Ce que vous ajoutez, c'est un lien Thunderbolt 5 entre les deux :
+Mythe à corriger : « si je branche deux machines, je passe de 1000 GB/s à combien ? ». Mauvaise question. **Chaque machine garde sa bande passante interne.** Ce que vous ajoutez, c'est un lien Thunderbolt 5 entre les deux :
 
 - TB5 = 80 Gbps = **10 GB/s** (mode équilibré, préféré pour le clustering).
 - Avec RDMA (macOS 26.2) : latence 5 à 9 microsecondes, transfert basse latence.
@@ -97,7 +97,7 @@ Le clustering se justifie uniquement pour loger un modèle qui ne tient pas sur 
 Deux faits qui pèsent sur toute décision d'achat mi-2026 :
 
 - **Apple a retiré l'option 512GB du Mac Studio M3 Ultra en mars 2026**, à cause de la pénurie DRAM (mémoire réallouée vers la HBM des accélérateurs IA). En mai 2026, le Mac Studio actuel est plafonné à 96GB. Sources : MacRumors, Tom's Hardware, Notebookcheck.
-- **Tim Cook a annoncé (WSJ, 17/06/2026) des hausses de prix "inévitables"**, qualifiant la demande mémoire d'inondation centennale. Ni montant, ni calendrier précisés.
+- **Tim Cook a annoncé (WSJ, 17/06/2026) des hausses de prix « inévitables »**, qualifiant la demande mémoire d'inondation centennale. Ni montant, ni calendrier précisés.
 
 Le Mac Studio M5 Ultra n'a pas été annoncé à la WWDC (8-12 juin 2026) et est attendu vers octobre 2026. Deux camps de fuites s'opposent sur le 512GB :
 
@@ -117,9 +117,9 @@ Conclusion honnête : le silicium peut faire 512GB, mais l'existence commerciale
 | **Prototypage / fine-tuning CUDA** | NVIDIA DGX Spark | Excellent prompt processing, écosystème CUDA |
 | **Inférence portable, tier moyen** | MacBook Pro M5 Max 128GB | 614 GB/s, mais plafond ~100GB |
 
-Pourquoi le DGX Spark et l'AMD ne sont pas des machines frontier : tous deux sont des boîtes 128GB à ~256-273 GB/s. Ils ne peuvent ni loger les géants (plafond 128GB vs 410-880GB nécessaires), ni les cracher vite. Preuve : le DGX Spark sur un modèle de 120B ne génère que **38,5 tok/s**, battu par trois RTX 3090 d'occasion. Le DGX Spark reste excellent pour le développement CUDA et le fine-tuning ; ce n'est pas une machine d'inférence frontier.
+Pourquoi le DGX Spark et l'AMD ne sont pas des machines frontière : tous deux sont des boîtes 128GB à ~256-273 GB/s. Ils ne peuvent ni loger les géants (plafond 128GB vs 410-880GB nécessaires), ni les cracher vite. Preuve : le DGX Spark sur un modèle de 120B ne génère que **38,5 tok/s**, battu par trois RTX 3090 d'occasion. Le DGX Spark reste excellent pour le développement CUDA et le fine-tuning ; ce n'est pas une machine d'inférence frontière.
 
-**Principe directeur :** le matériel le plus efficient est le moins cher qui atteint réellement l'objectif. Une boîte à 2000 dollars qui ne peut pas loger votre modèle cible n'est pas "efficiente", elle rate la cible.
+**Principe directeur :** le matériel le plus efficient est le moins cher qui atteint réellement l'objectif. Une boîte à 2000 dollars qui ne peut pas loger votre modèle cible n'est pas « efficiente », elle rate la cible.
 
 ## 8. L'économie de l'autonomie de calcul
 
