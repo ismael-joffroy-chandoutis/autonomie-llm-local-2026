@@ -5,6 +5,8 @@
 
 > A practical, sourced decision guide for running frontier open-weight models (DeepSeek, Qwen, GLM, Kimi, MiniMax, Mistral) locally and privately, written mid-June 2026. The core insight that decides everything: **memory bandwidth, not raw compute, is the bottleneck for token generation.**
 
+<img src="monde.jpg" alt="autonomie-llm-local-2026" width="100%">
+
 *Text licensed under CC BY-NC-ND 4.0. All figures are sourced and dated; rumors are flagged as such.*
 
 ---

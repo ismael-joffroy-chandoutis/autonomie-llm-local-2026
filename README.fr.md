@@ -5,6 +5,8 @@
 
 > Un guide de décision pratique et sourcé pour faire tourner des modèles de langue frontière open-weight (DeepSeek, Qwen, GLM, Kimi, MiniMax, Mistral) localement et en privé, écrit mi-juin 2026. L'idée centrale qui décide de tout : **la bande passante mémoire, pas la puissance de calcul brute, est le goulot d'étranglement pour la génération de tokens.**
 
+<img src="monde.jpg" alt="autonomie-llm-local-2026" width="100%">
+
 *Texte sous licence CC BY-NC-ND 4.0. Toutes les données chiffrées sont sourcées et datées ; les rumeurs sont signalées comme telles.*
 
 ---
